@@ -1,8 +1,6 @@
 # Mark Meade
 # Gear.py
 
-import main
-
 from osrsbox import items_api
 
 

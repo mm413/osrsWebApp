@@ -1,12 +1,11 @@
 # Mark Meade
 # Main.py
+from gear import *
 
-import gear as otherFile
+def main():
+    g = Gear()
+    g.loadGear()
 
-from osrsbox import items_api
-items = items_api.load()
 
-g = otherFile.Gear()
-
-g.loadGear()
+main()
 
