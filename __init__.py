@@ -1,2 +1,0 @@
-#empty file to allow for python to see that it's okay to import from this dir.
-#found this trick here: https://stackoverflow.com/questions/4142151/how-to-import-the-class-within-the-same-directory-or-sub-directory
