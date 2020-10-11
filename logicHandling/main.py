@@ -1,6 +1,6 @@
 # Mark Meade
 # Main.py
-from gear import *
+from logicHandling.gear import *
 
 
 def main():
