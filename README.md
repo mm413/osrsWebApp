@@ -1,4 +1,4 @@
 # osrsWebApp
 
 Web App to emulate gear statistics. 
-Uses PyPi for database, and Flask for front end.
+Uses PyPi for osrsBox database, and Flask for front end.
