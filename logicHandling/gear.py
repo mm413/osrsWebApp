@@ -1,8 +1,8 @@
 # Mark Meade
 # Gear.py
-
+import sys
+sys.path.insert(0,'/osrsWebApp/logicHandling/gear/')
 from osrsbox import items_api
-
 
 class Gear:
     def __init__(self):
@@ -18,6 +18,7 @@ class Gear:
         self.ammoSlotItems = []
         self.capeSlotItems = []
         self.twohandSlotItems = []
+        self.loadGear()
 
     def loadGear(self):
         items = items_api.load()
