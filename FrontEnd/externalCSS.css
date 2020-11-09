@@ -1,3 +1,8 @@
+body {
+  background-image: url("images/PcQWNK.jpg");
+  background-color: #cccccc;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #3498DB;
@@ -42,3 +47,4 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
