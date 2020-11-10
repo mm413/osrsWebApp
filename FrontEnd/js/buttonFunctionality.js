@@ -18,3 +18,18 @@ window.onclick = function(event) {
   }
 }
 
+//getgear test
+function getGear(){
+  var request = new XMLHttpRequest();
+
+  // Open a new connection, using the GET request on the URL endpoint
+  request.open('GET', 'https://api.osrsbox.com/items', true);
+
+  request.onload = function () {
+    console.log("here");
+    var data = JSON.parse(this.response);
+    console.log(data);
+  }
+  // Send request
+  request.send()
+}
