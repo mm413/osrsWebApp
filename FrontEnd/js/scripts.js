@@ -34,8 +34,19 @@ function getGear(){
     for(var i = 0; i < data.length; i++) {
       var obj = data[i];
       console.log(obj.name);
-  }
+    }
   }
   // Send request
   request.send()
+}
+
+function getGearFetch(){
+  fetch('https://api.osrsbox.com/items')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(jsonResponse){
+      //for(var i = 0; i < jsonResponse.length; i++) {
+      console.log(jsonResponse._items)
+    });
 }
