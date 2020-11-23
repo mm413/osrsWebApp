@@ -41,7 +41,7 @@ function getGear(){
 }
 
 function getGearFetch(){
-  fetch('https://api.osrsbox.com/items')
+  fetch('https://api.osrsbox.com/equipment')
     .then(function(response) {
       return response.json();
     })
